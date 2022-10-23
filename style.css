@@ -75,7 +75,9 @@ h4 {
 .about-paragraphs p {
   margin: 10px;
 }
-
+.text-center {
+  margin: auto 10px;
+}
 .email-link {
   display: flex;
   justify-content: center;
