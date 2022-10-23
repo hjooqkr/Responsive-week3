@@ -90,15 +90,9 @@ h4 {
 #contact {
   margin-top: 50px;
 }
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   body {
     text-align: center;
-  }
-
-  .primary-link,
-  .secondary-link {
-    font-size: 13px;
-    padding: 15px 10px;
   }
   .text-center {
     padding: 5px 10px;
@@ -106,8 +100,9 @@ h4 {
   h1 {
     font-size: 56px;
   }
-  img {
+  .primary-link {
     display: block;
+    width: fit-content;
     margin: 10px auto;
   }
 }
